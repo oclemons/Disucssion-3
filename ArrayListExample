@@ -1,0 +1,21 @@
+import java.util.*;  
+public class ArrayListExample  
+{   
+public static void main(String args[])   
+{   
+//creating an instance of the ArrayList  
+ArrayList<Float> Array = new ArrayList<Float>();   
+//adding elements into the arraylist  
+Array.add(15.4f);   
+Array.add(37.6f);   
+Array.add(75.8f);     
+
+//iterating the list through a for-loop
+for(Float f:Array)  
+{  
+System.out.println(f);   
+}  
+
+}   
+
+}  
