@@ -11,3 +11,6 @@ Automatic Resizing: When the number of elements exceeds the capacity, ArrayList 
 Supports Generics: ArrayLists can hold elements of any type, including primitive types and objects, and support generics for type safety.
 Now, let's compare the differences between both methods; Arrays have a fixed size, while ArrayLists have a dynamic size that can expand or minimize as needed. 
 Moreover, Arrays can hold both primitive data types and objects directly, while ArrayLists can only hold objects (or boxed versions of primitive types), and since an ArrayList can’t be created for primitive data types, members of ArrayList are always references to objects at different memory locations, that’s why in an ArrayList the actual objects are never stored at contiguous locations. References of the actual objects are stored at contiguous locations.
+
+GeeksforGeeks. (2023, July 4). Array vs ArrayList in Java. GeeksforGeeks. https://www.geeksforgeeks.org/array-vs-arraylist-in-java/
+https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html
