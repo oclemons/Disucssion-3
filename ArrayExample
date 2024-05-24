@@ -1,0 +1,22 @@
+// Java program to demonstrate differences between
+// Array and ArrayList
+ 
+public class ArrayExample
+{
+    public static void main(String[] args) 
+    {
+        int array[] = new int[3]; // declaring an arry of integers
+        //
+        array[0] = 5; //adding the elements into the array
+        array[1] = 10;
+        array[2] = 15;
+
+        {
+            System.out.println("Example of an Array: ");
+            System.out.println("Divisibility Rule of 5: " + array[0]); //prints out the arrays above
+            System.out.println("Divisibility Rule of 5: " + array[1]);
+            System.out.println("Divisibility Rule of 5: " + array[2]);
+        }
+    }
+
+}
